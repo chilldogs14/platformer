@@ -4,9 +4,15 @@ var target = null
 var zoomed = false
 var center = Vector2.ZERO
 
+
 func _ready():
 	center = get_viewport_rect().size/2
 
 func _process(delta):
 	if Input. is_action_just_pressed("zoom"):
-		pass
+		if not zoomed:
+			target = center
+			zoomed = false
+		else:
+			target = owner.get_node("player").global_position
+			zoomed = true
