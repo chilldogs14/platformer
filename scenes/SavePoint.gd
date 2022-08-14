@@ -2,4 +2,7 @@ extends Area2D
 
 
 func _ready():
-	pass
+	$AnimationPlayer.play("checkpoint")
+
+func _process(delta):
+	
