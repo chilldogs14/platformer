@@ -37,7 +37,7 @@ tracks/0/keys = {
 
 [sub_resource type="Curve2D" id=3]
 _data = {
-"points": PoolVector2Array( 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 77, 0, 0, 0, 0, 0, 77, 31, 0, 0, 0, 0, -1, 31, 0, 0, 0, 0, -1, 0 )
+"points": PoolVector2Array( 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, -1, 15, 0, 0, 0, 0, -33, 15, 0, 0, 0, 0, -33, 44, 0, 0, 0, 0, -1, 44, 0, 0, 0, 0, 0, 112, 0, 0, 0, 0, -130, 111 )
 }
 
 [sub_resource type="CircleShape2D" id=4]
